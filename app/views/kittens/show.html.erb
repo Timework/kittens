@@ -1,0 +1,16 @@
+<h1><%= @kitten.name %></h1>
+
+<ul>
+    <li>
+        Age: <%= @kitten.age %>
+    </li>
+    <li>
+        Softness: <%= @kitten.softness %>
+    </li>
+    <li>
+        Cuteness: <%= @kitten.cuteness %>
+    </li>
+</ul>
+
+<%= link_to "delete", kitten_path(@kitten), method: :delete, data: {confirm: "Really delete the kitten?"} %>
+<%= link_to "edit", edit_kitten_path(@kitten) %>

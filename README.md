@@ -1,0 +1,1 @@
+This is a project for the Odin Project's Project Kittens API which can be found here: https://www.theodinproject.com/courses/ruby-on-rails/lessons/kittens-api
